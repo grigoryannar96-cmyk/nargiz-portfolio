@@ -1,0 +1,445 @@
+{
+  "profile": {
+    "name": "Nargiz Grigoryan",
+    "title": "Graphic & Brand Designer",
+    "agency": "Artuyt Design Agency & School",
+    "agencyRole": "Co-Founder | Graphic Designer & Trainer",
+    "contacts": {
+      "email": "grigoriannargiz@gmail.com",
+      "phone": ["+374 43 14 60 13", "+374 99 88 43 33"],
+      "instagram": "@nargizgrigoryan",
+      "behance": "https://www.behance.net/GrigorianNar",
+      "linkedin": "https://www.linkedin.com/in/nargrigoryan/"
+    },
+    "languages": [
+      { "language": "Armenian", "level": "Native" },
+      { "language": "English", "level": "Intermediate" },
+      { "language": "Russian", "level": "Intermediate" }
+    ],
+    "skills": {
+      "designTools": ["Figma", "Adobe Illustrator", "Photoshop", "InDesign", "Adobe XD"],
+      "aiPlatforms": ["Midjourney", "Leonardo AI", "Adobe Firefly", "Krea", "Recraft", "Nano Banana"],
+      "aiSpecialist": ["Multimodal Data Annotation", "Image Labeling", "RLHF (Human Feedback)", "Prompt Engineering"],
+      "designPrinciples": ["Color Theory", "Typography", "Visual Hierarchy", "Grid Systems", "Layout Composition"],
+      "uiux": ["Component-based design", "Wireframing", "User Flow Analysis"],
+      "designTypes": [
+        "Logo Design", "Brand Identity", "Label Design", "Packaging",
+        "Car Branding", "SMM / Social Media Design", "Menu Design",
+        "Poster Design", "AI-Assisted Design", "Presentation Design",
+        "Business Card Design", "Box Design", "App Design (UI/UX)"
+      ]
+    },
+    "experience": [
+      {
+        "title": "Freelance Graphic & Web Designer",
+        "company": "Armenian Bioinformatics Institute",
+        "period": "May 2026"
+      },
+      {
+        "title": "Brand Designer | Branding Expert",
+        "company": "Sunstone Digital",
+        "period": "Apr 2025 – Apr 2026",
+        "description": "Developing branding strategies for tech-driven projects and creating visual identities aligned with digital innovation."
+      },
+      {
+        "title": "AI Content & Annotation Specialist (Multimodal Projects)",
+        "company": "Freelance",
+        "period": "2025 – Present",
+        "highlights": [
+          "Dataset Development: Created and annotated 500+ high-quality design samples (brand books, logos, infographics, illustrations, realistic images) for generative AI training.",
+          "Workflow Optimization: Developed a 10-step methodology to convert complex visual designs into structured textual instructions.",
+          "Visual Grounding: Sourced assets via Ingimage, structured layouts in Figma, provided detailed annotations for AI model fine-tuning."
+        ]
+      },
+      {
+        "title": "Co-Founder | Graphic Designer & Trainer",
+        "company": "Artuyt Design Agency & School",
+        "period": "Jan 2022 – Present",
+        "description": "Leading creative direction and mentoring junior designers in advanced design workflows."
+      },
+      {
+        "title": "Graphic Designer Trainer",
+        "company": "Picsart Progress",
+        "period": "Oct 2021 – Aug 2022",
+        "description": "Trained students in design fundamentals and practical tools, developing structured course materials."
+      },
+      {
+        "title": "Freelance Top Rated Graphic Designer",
+        "company": "Upwork",
+        "period": "2020 – Present",
+        "description": "Collaborating with international clients on branding, digital marketing, presentation design, and business pitch deck development."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Bachelor's in Art History",
+        "institution": "Yerevan State University",
+        "year": "2018",
+        "diplomaNo": "AB No 265687"
+      },
+      {
+        "degree": "Graphic & Web Design Diploma",
+        "institution": "Kojoyan Design School",
+        "year": "2018–2019",
+        "duration": "9 months"
+      },
+      {
+        "degree": "Intermediate UI/UX Design",
+        "institution": "BDG (Business Development Group)",
+        "year": "2020",
+        "duration": "47.5 hours",
+        "certNo": "BD-D3-0032",
+        "note": "Ministry of High-Tech Industry of RA grant program"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Certificate of Appreciation — Graphic Design Trainer",
+        "issuer": "Picsart Progress",
+        "date": "22.02.2022"
+      },
+      {
+        "title": "AGBU WE Program (Women Entrepreneurs)",
+        "issuer": "Armenian General Benevolent Union / CREO Project Solutions",
+        "date": "Aug 29 – Nov 21, 2022"
+      },
+      {
+        "title": "SMM Weekend",
+        "issuer": "Simple Solutions",
+        "date": "Jan 25 – Feb 06, 2020"
+      },
+      {
+        "title": "IFC Investment Readiness Program for Women-owned Firms",
+        "issuer": "IFC (International Finance Corporation)",
+        "date": "April 7, 2023"
+      },
+      {
+        "title": "Tech for Non-Tech (7-month program)",
+        "issuer": "IFC & World Bank Group / Enterprise Incubator Foundation",
+        "date": "February 2023"
+      },
+      {
+        "title": "Ministry of Education RA — Official Recognition of 'Graphic Design for Beginners' Course",
+        "issuer": "Republic of Armenia Ministry of Education, Science, Culture and Sport",
+        "orderNo": "2637-240",
+        "date": "2025",
+        "note": "Her course program officially recognized as an additional education module by the RA government."
+      },
+      {
+        "title": "AI Video School: Complete Beginner to Pro (Veo3, Sora 2 & More)",
+        "issuer": "Udemy — Instructor: Dan Britain",
+        "date": "Nov 23, 2025",
+        "duration": "28 hours",
+        "certUrl": "https://ude.my/UC-1633516e-5eed-4098-9002-1a6a0a2e8c79"
+      },
+      {
+        "title": "Huya Academy — Built with Claude",
+        "issuer": "Huya Academy"
+      }
+    ],
+    "drivePortfolioRoot": "https://drive.google.com/drive/folders/1GaXKfyMfpyk-BxdTUk-fGgPtSpeN7f8O",
+    "driveCVFolder": "https://drive.google.com/drive/folders/10VNBUoQV6XCKgcMYdT2eMRMyW6pYWwgy"
+  },
+
+  "categories": [
+    {
+      "id": "ai",
+      "title": "AI Creations",
+      "description": "AI-assisted visual design using Midjourney, Adobe Firefly, and Nano Banana. Features the Artuyt character — a blue-and-yellow mascot meaning 'bird' in Armenian.",
+      "driveFolder": "https://drive.google.com/drive/folders/1K_keljtx3UoALTlpAB2wDolLkee9qe7e",
+      "projects": [
+        {
+          "id": "artuyt-character",
+          "title": "Artuyt AI Character & Branding",
+          "type": "AI Design / Character Design",
+          "description": "Artuyt, meaning 'bird' in Armenian, is a vibrant AI character in blue and yellow — symbolizing creativity, energy, and innovation. Created with multiple poses and expressions to bring the Artuyt Design Agency brand to life across every project.",
+          "sections": [
+            "Character Description & Design",
+            "Visual Designs (before/after original photos)",
+            "Other AI Prompts",
+            "Poster / Banner",
+            "Video Creation"
+          ],
+          "instagramLinks": [
+            "https://www.instagram.com/p/DVVEUiQDdZa/",
+            "https://www.instagram.com/reel/DRKKnhXjL7p/"
+          ],
+          "driveFiles": {
+            "portfolio_pdf": "https://drive.google.com/file/d/1h_y25Yhx330GAl6UbU7sUYteQsOGOjw5/view",
+            "artuyt_pdf": "https://drive.google.com/file/d/1zCAZJtddjGzI8KWky4o0-ASrc6hyRH8w/view",
+            "ai_creations_pdf": "https://drive.google.com/file/d/1GeWlILsA4S1JqbsuE5foYzZzbIBZZwe5/view",
+            "source_ai": "https://drive.google.com/file/d/1CPo_3CQLJtI28rd1YQLNPNmntNro61WU/view"
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "logo-design",
+      "title": "Logo Design",
+      "description": "Brand identity and logo systems for Armenian and international clients — from sports clubs to food brands and service businesses.",
+      "projects": [
+        {
+          "id": "shawarma-vibes",
+          "title": "Shawarma Vibes",
+          "type": "Logo Design + Brand Guidelines",
+          "description": "Full brand identity for a food brand. Colors: #D31D29, #F2E7D7, #000000. Typography: Montserrat. Includes logo variations, monochrome version, font specs, color palette, and pattern system.",
+          "driveFiles": {
+            "logo": "https://drive.google.com/file/d/1vl1OhAfdt0Vzorn47-oFKr2NHkdZX_XD/view",
+            "brandguide": "https://drive.google.com/file/d/1S0dNbAzifFXKtjrZfuMr-_h3W24pdfpd/view"
+          }
+        },
+        {
+          "id": "amigos-futsal",
+          "title": "Amigos Futsal Club",
+          "type": "Sports Logo Design",
+          "description": "Logo design for Amigos Futsal Club 2023. Includes secondary logo for Avangard Futsal Club. Typography: AGPresquire Bold.",
+          "driveFiles": {
+            "logo": "https://drive.google.com/file/d/1Vnb_ffMdTlkCvDEOOZrSVqKjMmmuH07g/view"
+          }
+        },
+        {
+          "id": "siran-supermarkets",
+          "title": "Siran Supermarkets",
+          "type": "Logo Design",
+          "description": "Logo design for an Armenian supermarket chain — 'Սիրան Սուպերմարկետների ցանց'. Multiple logo variations and brand system.",
+          "driveFiles": {
+            "logo": "https://drive.google.com/file/d/14xaCSu4HaQr3WWLs_FM_Y2Uml3e5Nw5e/view"
+          }
+        },
+        {
+          "id": "time-watches",
+          "title": "TIME Watches and Jewellery",
+          "type": "Logo Design",
+          "description": "Elegant logo design for a watches and jewellery brand. Includes TIMEClub sub-brand and multiple logo variations.",
+          "driveFiles": {
+            "logo": "https://drive.google.com/file/d/1tEytv0Z5I_PTCf94ghgG_zMrkBxX4wJ5/view"
+          }
+        },
+        {
+          "id": "free-duct-tape-running",
+          "title": "Free Duct Tape Running",
+          "type": "Logo Design + Event Branding",
+          "description": "Logo and event branding for a running event. Includes ticket mockup design and full event identity system.",
+          "driveFiles": {
+            "logo": "https://drive.google.com/file/d/17V4A0Hp_eQSthBErmDPWKNmWHFTRl9kA/view"
+          }
+        },
+        {
+          "id": "artuyt-agency",
+          "title": "Artuyt Design Agency",
+          "type": "Agency Logo",
+          "description": "Logo for Artuyt Design Agency (Design Agency & Design Courses). Also includes Amara Armenian Wine, Elysium, Areka, Narekatsin, and MUSI logos.",
+          "driveFiles": {
+            "logos": "https://drive.google.com/file/d/1TGrYU-SNuDr33f99xiHg4bAVxdvoYfWc/view"
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "label-packaging",
+      "title": "Label Design & Packaging",
+      "description": "Product label and packaging design for food, beverage, and consumer goods brands — including full mockup presentations.",
+      "projects": [
+        {
+          "id": "bonno-drinks",
+          "title": "BONNO Fruit Drinks",
+          "type": "Label Design / Packaging",
+          "description": "Full label system for BONNO natural fruit drinks. Flavors: Strawberry, Plum, Black Plum, Red Plum, Peach, Apricot. 450g packaging with '#Natural Energy' branding.",
+          "driveFiles": {
+            "labels": "https://drive.google.com/file/d/1BmN0rENKjKU-Nv_XXMTNmPFV8OsWlEhf/view",
+            "full_range": "https://drive.google.com/file/d/1SY4rd246_P5Q-6Gi5ZQ_qpYZtfiyEawY/view"
+          }
+        },
+        {
+          "id": "tomato-sauces",
+          "title": "Tomato Sauces — KOM",
+          "type": "Label Design / Packaging",
+          "description": "Label design for KOM brand sauce range: Garlic Sauce (Соус Чесноком), BBQ Sauce (Соус Шашлычный), Pasta Sauce (Соус Паста), Chili Sauce (Соус Чили).",
+          "driveFiles": {
+            "labels": "https://drive.google.com/file/d/1haCjpe5B4XuKamRajR3fE5QWNelPY14l/view",
+            "full": "https://drive.google.com/file/d/12HoRu3YiW9PcNsjcB5GLI45FcL5BHIlc/view"
+          }
+        },
+        {
+          "id": "xacheni-vodka",
+          "title": "Xacheni Vodka — ԽԱՉԵՆԻ",
+          "type": "Label Design / Packaging",
+          "description": "Label design for Xacheni Armenian vodka brand. Multiple label variations with Armenian and Cyrillic text. Full bottle mockup presentation.",
+          "driveFiles": {
+            "labels": "https://drive.google.com/file/d/1EKGUBRKZlLncp5xxxMKpm8QZ8Xo4Lyw4/view",
+            "full": "https://drive.google.com/file/d/1DpPcjVy_bI2qOvrAOCfd_0K4dZztygFc/view"
+          }
+        },
+        {
+          "id": "super-daff",
+          "title": "Super Daff Detergent",
+          "type": "Label Design / Packaging",
+          "description": "Packaging redesign for Super Daff detergent. Tagline: 'New Formula — 2X Power'. Full product line mockup.",
+          "driveFiles": {
+            "labels": "https://drive.google.com/file/d/1e-oVs-usDhdhJjzJsM8JoGXwj7CWTsHK/view"
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "car-branding",
+      "title": "Car Branding",
+      "description": "Vehicle wrap and car branding designs for food, coffee, and service brands.",
+      "projects": [
+        {
+          "id": "caffe-latte-car",
+          "title": "Caffe Latte / Koomroot / Starbucks",
+          "type": "Car Branding",
+          "description": "Vehicle wrap designs for Caffe Latte and Koomroot brands. Includes Starbucks concept branding for vehicles.",
+          "driveFiles": {
+            "branding": "https://drive.google.com/file/d/1TkQtfBqw-X6xewdw5-UnblFhVBZpLjRE/view",
+            "full": "https://drive.google.com/file/d/1Xse3Lyc74_-allBBEN0aK81v-oD4yII8/view"
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "business-cards",
+      "title": "Business Card Design",
+      "description": "Business card and corporate identity designs for Armenian and international companies.",
+      "projects": [
+        {
+          "id": "rural-coop",
+          "title": "Rural COOP — Mariam Gabrielyan",
+          "type": "Business Card Design",
+          "description": "Business card for Rural COOP NGO Director. Address: 9/16 Tbilisyan hwy, 0052 Yerevan, Armenia.",
+          "driveFiles": {
+            "cards": "https://drive.google.com/file/d/170OxXGMKqXLLnAOwodI5ROPBp60-ymtg/view"
+          }
+        },
+        {
+          "id": "razliv-beer",
+          "title": "Razliv Beer Armenia",
+          "type": "Business Card / Loyalty Card",
+          "description": "Loyalty card (Կուտակային Քարտ) and brand identity for Razliv Beer Armenia. Tagline: 'ՔՈ ԳԱՐԵՋՐԻ ԵՏԵՎԻՑ' (For Your Beer).",
+          "driveFiles": {
+            "cards": "https://drive.google.com/file/d/1X9clPrL65Ar6hz6oogwuEDJP0b25bcul/view"
+          }
+        },
+        {
+          "id": "ameriabank",
+          "title": "Ameriabank Card Design",
+          "type": "Business Card / Bank Card Design",
+          "description": "Concept bank card and business card design for Ameriabank Armenia.",
+          "driveFiles": {
+            "cards": "https://drive.google.com/file/d/16jeQOB3y7LjcZ1DurYexUSuNB5kLKETU/view"
+          }
+        },
+        {
+          "id": "archiving",
+          "title": "Archiving Company",
+          "type": "Business Card Design",
+          "description": "Business card for Archiving company. Contact: elarchiving@gmail.com, (+374 095) 34 34 34, ք. Երևան, Վարդանանց 26/1.",
+          "driveFiles": {
+            "cards": "https://drive.google.com/file/d/1moV7ML9Go1m2wHvJ7Vb_g_sI5Tq8qciQ/view"
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "smm-poster",
+      "title": "SMM & Poster Design",
+      "description": "Social media marketing designs, event posters, and banner designs for various clients.",
+      "projects": [
+        {
+          "id": "copinex-launch",
+          "title": "COPINEX — We've Launched!",
+          "type": "SMM / Banner Design",
+          "description": "Launch campaign banner and social media design series for COPINEX brand.",
+          "driveFiles": {
+            "design": "https://drive.google.com/file/d/1QmSMYc2P0LcXG141RgAFKRwZ6utZ-Fxb/view"
+          }
+        },
+        {
+          "id": "poster-social-media",
+          "title": "Social Media & Poster Design Collection",
+          "type": "Poster / SMM Design",
+          "description": "Collection of poster and social media designs including cinema event (SPARTA promo), seasonal sale banners, concert poster for Artak Balayan, and lifestyle content.",
+          "driveFiles": {
+            "designs": "https://drive.google.com/file/d/1C48h8B96d2JGnWVtI1sb5B6XVBmQf2rg/view"
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "presentations",
+      "title": "Presentation Design",
+      "description": "Commercial and client presentation design for pitches, brand proposals, and product catalogues.",
+      "projects": [
+        {
+          "id": "machalet",
+          "title": "Ma'chalet — Alaska Retreat",
+          "type": "Concept Presentation",
+          "description": "Design presentation for an Armenian-themed chalet in Alaska. Client persona: Angela Sarafyan (Armenian actress, 41, nature lover). Palette: Blood Red, Almond Milk, Chicory Coffee, Desert Taupe. Concept: 'Where Adventure Meets Serenity'.",
+          "driveFiles": {
+            "presentation": "https://drive.google.com/file/d/1opquYx5mLPnsF8Ww3EZmHw9vmCAlqdLH/view"
+          }
+        },
+        {
+          "id": "makhmur",
+          "title": "Makhmur Handmade",
+          "type": "Brand Presentation / Pitch Deck",
+          "description": "Commercial pitch deck for Makhmur, an Armenian handmade accessories brand (bags, card holders, lipstick cases with embroidery). Positioned as corporate gifting with Armenian cultural identity. Instagram: @makhmur_handmade",
+          "driveFiles": {
+            "presentation": "https://drive.google.com/file/d/1MPC7Dd_S1_A7DK8_TFal4f1BEj1v-dgG/view"
+          }
+        },
+        {
+          "id": "narekatsin",
+          "title": "Narekatsin National Jewellery",
+          "type": "Brand Presentation",
+          "description": "Presentation for Narekatsin, an Armenian national jewellery revival brand with 35+ years of history. Designs include Van-Vaspurakan necklaces, Kars filigree bracelets, Artsakh symbols. Founded by Mher Sahakyan and Elen Arzumanian.",
+          "driveFiles": {
+            "presentation": "https://drive.google.com/file/d/1GZA9f4ejBvNPzMrVagR2e0NNUQKKbnyP/view"
+          }
+        },
+        {
+          "id": "newpro-containers",
+          "title": "NewPro Containers Catalogue",
+          "type": "Catalogue Redesign",
+          "description": "Catalogue layout redesign for NewPro Containers (wholesale planter distributor since 1989). Covers 160+ pages of product lines: Cosapots, ProTone, Jay Scotts, Ecopots, Crescent Garden, MegaPots, Vista, Independence, PotLuck.",
+          "driveFiles": {
+            "catalogue": "https://drive.google.com/file/d/1NKlROk0AtsN2jhn3SW7ErFMCTM5ar1c0/view"
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "app-design",
+      "title": "App Design",
+      "description": "Mobile application UI/UX design concepts.",
+      "projects": [
+        {
+          "id": "chefoodie",
+          "title": "CheFoodie App",
+          "type": "App Design / UI Design",
+          "description": "Mobile app UI design for CheFoodie — a food discovery app that matches users with restaurants based on shared dining interests. Features: AI-powered deal finder, 2-for-1 Happy Hour promotions, social matching. 'Find More Deals With Ai'.",
+          "driveFiles": {
+            "mockup": "https://drive.google.com/file/d/1KeNlT3ZMHEJCdMKEcTfGf2INHJI-VOyT/view"
+          }
+        }
+      ]
+    }
+  ],
+
+  "meta": {
+    "extractedFrom": "Google Drive",
+    "driveOwner": "grigoryannar96@gmail.com",
+    "extractedAt": "2026-06-27",
+    "instagramAccount": "@nargizgrigoryan",
+    "instagramScrapeStatus": "skipped",
+    "notes": "Instagram posts mentioned in AI portfolio PDFs: https://www.instagram.com/p/DVVEUiQDdZa/ and https://www.instagram.com/reel/DRKKnhXjL7p/"
+  }
+}

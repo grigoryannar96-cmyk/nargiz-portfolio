@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nargiz Grigoryan — Graphic & Brand Designer based in Yerevan, Armenia. Top Rated on Upwork. Logo design, brand identity, packaging, AI-assisted design.">
+  <title>Nargiz Grigoryan — Graphic & Brand Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo">Nargiz Grigoryan</a>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#smm">SMM</a></li>
+      <li><a href="#print">Print</a></li>
+      <li><a href="#brand">Branding</a></li>
+      <li><a href="#packaging">Packaging</a></li>
+      <li><a href="#ai">AI</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#hire" class="nav-hire">Hire Me</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span>
+    </button>
+    <div class="nav-drawer">
+      <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#smm">SMM</a></li>
+        <li><a href="#print">Print</a></li>
+        <li><a href="#brand">Branding</a></li>
+        <li><a href="#packaging">Packaging</a></li>
+        <li><a href="#ai">AI</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#hire">Hire Me</a></li>
+      </ul>
+    </div>
+    <div class="nav-overlay"></div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1 class="hero-name">
+          <span>Nargiz</span>
+          <span>Grigoryan</span>
+        </h1>
+        <div class="hero-details">
+          <p class="hero-role">Graphic &amp; Brand Designer&thinsp;·&thinsp;AI Content Creator&thinsp;·&thinsp;Photo &amp; Video</p>
+          <p class="hero-sub">Yerevan, Armenia &thinsp;·&thinsp; Co-founder, Artuyt Design Agency</p>
+        </div>
+        <a href="#work" class="hero-cta">
+          See my work
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+        </a>
+      </div>
+      <div class="hero-status">
+        <div class="status-dot"></div>
+        <span>Available for work</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span>Logo Design</span><span class="sep">·</span>
+      <span>Brand Identity</span><span class="sep">·</span>
+      <span>Packaging</span><span class="sep">·</span>
+      <span>AI-Assisted Design</span><span class="sep">·</span>
+      <span>Car Branding</span><span class="sep">·</span>
+      <span>SMM Design</span><span class="sep">·</span>
+      <span>Presentation Design</span><span class="sep">·</span>
+      <span>App UI Design</span><span class="sep">·</span>
+      <span>Label Design</span><span class="sep">·</span>
+      <span>Business Cards</span><span class="sep">·</span>
+      <span>Logo Design</span><span class="sep">·</span>
+      <span>Brand Identity</span><span class="sep">·</span>
+      <span>Packaging</span><span class="sep">·</span>
+      <span>AI-Assisted Design</span><span class="sep">·</span>
+      <span>Car Branding</span><span class="sep">·</span>
+      <span>SMM Design</span><span class="sep">·</span>
+      <span>Presentation Design</span><span class="sep">·</span>
+      <span>App UI Design</span><span class="sep">·</span>
+      <span>Label Design</span><span class="sep">·</span>
+      <span>Business Cards</span><span class="sep">·</span>
+    </div>
+  </div>
+
+  <!-- WORK -->
+  <section class="work section" id="work">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Presentation</h2>
+      </div>
+      <span class="deck-tabs-label">Presentation</span>
+      <div class="deck-tabs" id="deckTabs"></div>
+      <div class="deck-viewer">
+        <button class="deck-arrow deck-prev" id="deckPrev" aria-label="Previous page">←</button>
+        <div class="deck-stage" id="deckStage">
+          <img class="deck-page-half deck-page-left" id="deckPageLeft" src="" alt="">
+          <div class="deck-spine" id="deckSpine"></div>
+          <img class="deck-page-half deck-page-right" id="deckPageRight" src="" alt="">
+        </div>
+        <button class="deck-arrow deck-next" id="deckNext" aria-label="Next page">→</button>
+        <div class="deck-meta">
+          <div>
+            <span class="deck-title" id="deckTitle"></span>
+            <span class="deck-cat" id="deckCat"></span>
+          </div>
+          <span class="deck-count" id="deckCount"></span>
+        </div>
+        <div class="deck-progress"><div class="deck-progress-bar" id="deckProgressBar"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SMM DESIGN -->
+  <section class="smm-section section" id="smm">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">SMM Design</h2>
+      </div>
+      <div class="smm-grid" id="smmGrid"></div>
+    </div>
+  </section>
+
+  <!-- PRINT DESIGN -->
+  <section class="print-section section" id="print">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Print Design</h2>
+      </div>
+      <span class="deck-tabs-label">Category</span>
+      <div class="print-cat-tabs" id="printCatTabs"></div>
+      <div class="print-grid" id="printGrid"></div>
+    </div>
+  </section>
+
+  <!-- PRINT LIGHTBOX -->
+  <div class="print-lightbox" id="printLightbox">
+    <button class="print-lb-close" id="printLbClose">×</button>
+    <button class="print-lb-prev" id="printLbPrev">←</button>
+    <img class="print-lb-img" id="printLbImg" src="" alt="">
+    <button class="print-lb-next" id="printLbNext">→</button>
+  </div>
+
+  <!-- BRAND IDENTITY -->
+  <section class="brand-section section" id="brand">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Brand Identity</h2>
+      </div>
+      <div class="brand-grid" id="brandGrid"></div>
+    </div>
+  </section>
+
+  <!-- BRAND LIGHTBOX -->
+  <div class="brand-lightbox" id="brandLightbox">
+    <button class="brand-lb-close" id="brandLbClose">×</button>
+    <button class="brand-lb-prev" id="brandLbPrev">←</button>
+    <img class="brand-lb-img" id="brandLbImg" src="" alt="">
+    <button class="brand-lb-next" id="brandLbNext">→</button>
+  </div>
+
+  <!-- PACKAGING DESIGN -->
+  <section class="pkg-section section" id="packaging">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Packaging Design</h2>
+      </div>
+      <div class="pkg-grid" id="pkgGrid"></div>
+    </div>
+  </section>
+
+  <!-- PACKAGING LIGHTBOX -->
+  <div class="pkg-lightbox" id="pkgLightbox">
+    <button class="pkg-lb-close" id="pkgLbClose">×</button>
+    <button class="pkg-lb-prev" id="pkgLbPrev">←</button>
+    <img class="pkg-lb-img" id="pkgLbImg" src="" alt="">
+    <button class="pkg-lb-next" id="pkgLbNext">→</button>
+  </div>
+
+  <!-- AI CONTENT -->
+  <section class="ai-section section" id="ai">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">AI Content</h2>
+      </div>
+
+      <!-- Artuyt moodboard -->
+      <div class="artuyt-panel artuyt-full">
+        <div class="artuyt-desc">
+          <h3 class="artuyt-title">CHARACTER<br>DESCRIPTION</h3>
+          <p class="artuyt-text">Artuyt, meaning "bird" in Armenian, is our vibrant AI character in blue and yellow—symbolizing creativity, energy, and innovation. With multiple poses and expressions, Artuyt brings our design vision to life across every project.</p>
+        </div>
+        <div class="artuyt-moodboard artuyt-moodboard--wide">
+          <img src="ai/new/01.jpg" alt="Artuyt 1" loading="lazy">
+          <img src="ai/new/02.jpg" alt="Artuyt 2" loading="lazy">
+          <img src="ai/new/03.jpg" alt="Artuyt 3" loading="lazy">
+          <img src="ai/new/04.jpg" alt="Artuyt 4" loading="lazy">
+          <img src="ai/new/05.jpg" alt="Artuyt 5" loading="lazy">
+          <img src="ai/new/06.jpg" alt="Artuyt 6" loading="lazy">
+          <img src="ai/new/07.jpg" alt="Artuyt 7" loading="lazy">
+          <img src="ai/new/08.jpg" alt="Artuyt 8" loading="lazy">
+        </div>
+      </div>
+
+      <span class="ai-subsection-label">AI Video</span>
+      <div class="ai-video-grid">
+        <div class="ai-video-wrap">
+          <div class="ai-video-item">
+            <video src="ai/videos/DVVEUiQDdZa.mp4" muted loop playsinline autoplay></video>
+          </div>
+          <div class="ai-video-stats">
+            <span class="ai-video-stat">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              146K
+            </span>
+            <span class="ai-video-stat">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+              7.9K
+            </span>
+            <span class="ai-video-stat">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+              393
+            </span>
+          </div>
+        </div>
+        <div class="ai-video-wrap">
+          <div class="ai-video-item">
+            <video src="ai/videos/DVnF4i-tRAB.mp4" muted loop playsinline autoplay></video>
+          </div>
+          <div class="ai-video-stats">
+            <span class="ai-video-stat">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              289K
+            </span>
+            <span class="ai-video-stat">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+              2.5K
+            </span>
+            <span class="ai-video-stat">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+              116
+            </span>
+          </div>
+        </div>
+        <div class="ai-video-wrap">
+          <div class="ai-video-item">
+            <video src="ai/videos/DRKKnhXjL7p.mp4" muted loop playsinline autoplay></video>
+          </div>
+          <div class="ai-video-stats">
+            <span class="ai-video-stat">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              10K
+            </span>
+            <span class="ai-video-stat">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+              36
+            </span>
+            <span class="ai-video-stat">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+              4
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-left">
+          <span class="section-label">About</span>
+          <h2 class="about-heading">Design that's specific<br><em>to who you are</em></h2>
+          <p>Based in Yerevan. Six years in — brand identities, vodka labels, futsal club logos, AI training datasets, and everything in between.</p>
+          <p>I co-founded Artuyt Design Agency &amp; School in 2022. We do client work and run design education. Top Rated on Upwork, which means international clients trust my work enough to keep coming back.</p>
+          <p>In 2025, the Armenian Ministry of Education officially recognized my "Graphic Design for Beginners" course as a government-approved education program. Still proud of that one.</p>
+          <div class="about-links">
+            <a href="https://www.behance.net/GrigorianNar" target="_blank" rel="noopener" class="about-link">Behance ↗</a>
+            <a href="https://www.linkedin.com/in/nargrigoryan/" target="_blank" rel="noopener" class="about-link">LinkedIn ↗</a>
+            <a href="https://www.instagram.com/nargizgrigoryan" target="_blank" rel="noopener" class="about-link">Instagram ↗</a>
+          </div>
+        </div>
+        <div class="about-right">
+          <div class="about-portrait-wrap">
+            <img src="photos/5332415427038091351.jpg" alt="Nargiz Grigoryan" class="about-portrait">
+          </div>
+          <div class="stats-grid">
+            <div class="stat-card">
+              <span class="stat-num">6+</span>
+              <span class="stat-label">Years designing professionally</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">500+</span>
+              <span class="stat-label">AI training samples annotated</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">Top&nbsp;Rated</span>
+              <span class="stat-label">Freelancer on Upwork</span>
+            </div>
+            <div class="stat-card stat-accent">
+              <span class="stat-num">Gov't-recognized</span>
+              <span class="stat-label">Course — RA Ministry of Education, 2025</span>
+            </div>
+          </div>
+          <div class="skills-block">
+            <p class="skills-label">Tools &amp; Platforms</p>
+            <div class="skills-tags">
+              <span class="tag">Figma</span>
+              <span class="tag">Illustrator</span>
+              <span class="tag">Photoshop</span>
+              <span class="tag">InDesign</span>
+              <span class="tag">Adobe XD</span>
+              <span class="tag">Midjourney</span>
+              <span class="tag">Leonardo AI</span>
+              <span class="tag">Adobe Firefly</span>
+              <span class="tag">Krea</span>
+              <span class="tag">Recraft</span>
+              <span class="tag">Claude</span>
+              <span class="tag">ChatGPT</span>
+              <span class="tag">Gemini</span>
+              <span class="tag">Notion AI</span>
+              <span class="tag">Kling</span>
+              <span class="tag">Runway</span>
+              <span class="tag">Higgsfield</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <span class="section-label">Experience</span>
+      <h2 class="section-heading">Where I've worked</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="tl-date">May 2026</div>
+          <div class="tl-body">
+            <h3>Freelance Graphic &amp; Web Designer</h3>
+            <p class="tl-company">Armenian Bioinformatics Institute</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-date">Apr 2025 – Apr 2026</div>
+          <div class="tl-body">
+            <h3>Brand Designer &amp; Branding Expert</h3>
+            <p class="tl-company">Sunstone Digital</p>
+            <p class="tl-desc">Developed branding strategies for tech-driven projects. Built visual identities aligned with digital product thinking.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-date">2025 – Present</div>
+          <div class="tl-body">
+            <h3>AI Content &amp; Annotation Specialist</h3>
+            <p class="tl-company">Freelance — Multimodal Projects</p>
+            <p class="tl-desc">Created and annotated 500+ design samples for generative AI training — brand books, logos, infographics, illustrations. Developed a 10-step methodology for converting complex visual designs into structured text instructions.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item tl-featured">
+          <div class="tl-date">Jan 2022 – Present</div>
+          <div class="tl-body">
+            <h3>Co-Founder · Graphic Designer &amp; Trainer</h3>
+            <p class="tl-company">Artuyt Design Agency &amp; School</p>
+            <p class="tl-desc">Leading creative direction for client work while running the school side. The design curriculum was officially recognized by the RA Ministry of Education in 2025.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-date">Oct 2021 – Aug 2022</div>
+          <div class="tl-body">
+            <h3>Graphic Designer Trainer</h3>
+            <p class="tl-company">Picsart Progress</p>
+            <p class="tl-desc">Trained students in design fundamentals and practical software. Wrote structured course materials from the ground up.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-date">2020 – Present</div>
+          <div class="tl-body">
+            <h3>Top Rated Freelance Graphic Designer</h3>
+            <p class="tl-company">Upwork</p>
+            <p class="tl-desc">International clients — branding, digital marketing, presentation design, pitch decks.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="certs section" id="certifications">
+    <div class="container">
+      <span class="section-label">Education &amp; Certifications</span>
+      <h2 class="section-heading">Background</h2>
+      <div class="certs-grid">
+
+        <div class="cert-card cert-featured">
+          <span class="cert-issuer">Republic of Armenia · 2025</span>
+          <h3>Ministry of Education<br>Official Recognition</h3>
+          <p>The "Graphic Design for Beginners" course was officially certified as an additional education module by the RA Ministry of Education, Science, Culture &amp; Sport. Order No. 2637-240.</p>
+        </div>
+
+        <div class="cert-card">
+          <span class="cert-issuer">Yerevan State University</span>
+          <h3>Bachelor's in Art History</h3>
+          <span class="cert-date">2018 · Diploma AB No 265687</span>
+        </div>
+
+        <div class="cert-card">
+          <span class="cert-issuer">Kojoyan Design School</span>
+          <h3>Graphic &amp; Web Design Diploma</h3>
+          <span class="cert-date">2018–2019 · 9 months</span>
+        </div>
+
+        <div class="cert-card">
+          <span class="cert-issuer">BDG · Ministry of High-Tech RA</span>
+          <h3>Intermediate UI/UX Design</h3>
+          <span class="cert-date">Dec 2020 · 47.5 hours</span>
+        </div>
+
+        <div class="cert-card">
+          <span class="cert-issuer">IFC &amp; World Bank Group</span>
+          <h3>Tech for Non-Tech — 7-Month Program</h3>
+          <span class="cert-date">February 2023</span>
+        </div>
+
+        <div class="cert-card">
+          <span class="cert-issuer">IFC · International Finance Corporation</span>
+          <h3>Investment Readiness Program for Women-owned Firms</h3>
+          <span class="cert-date">April 2023</span>
+        </div>
+
+        <div class="cert-card">
+          <span class="cert-issuer">AGBU · Armenian General Benevolent Union</span>
+          <h3>Women Entrepreneurs (WE) Program</h3>
+          <span class="cert-date">Aug – Nov 2022</span>
+        </div>
+
+        <div class="cert-card">
+          <span class="cert-issuer">Udemy · Dan Britain</span>
+          <h3>AI Video School: Veo3, Sora 2 &amp; More</h3>
+          <span class="cert-date">Nov 2025 · 28 hours</span>
+        </div>
+
+        <div class="cert-card">
+          <span class="cert-issuer">Picsart Progress</span>
+          <h3>Certificate of Appreciation — Design Trainer</h3>
+          <span class="cert-date">February 2022</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials-section section" id="testimonials">
+    <div class="container">
+      <span class="section-label">Client Reviews</span>
+      <h2 class="section-heading">What clients say</h2>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <p class="testimonial-text">"Absolutely fantastic work, great adherence to deadlines, and the end result were exactly as required. One of the best designers I have had the opportunity to work on Upwork. Fantabulous."</p>
+          <div class="testimonial-meta">
+            <span class="testimonial-job">Brand Identity Design · 5.0 ★</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <p class="testimonial-text">"This is my second time working with Nar, and once again, she exceeded my expectations. Both projects required a strong combination of design expertise, typography skills, and technical knowledge of print production."</p>
+          <div class="testimonial-meta">
+            <span class="testimonial-job">Print Design Project · 5.0 ★</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <p class="testimonial-text">"Nar was a pleasure to work with. Very attentive to the brief and asked good questions. We were very happy with the end result and would happily work together again in future."</p>
+          <div class="testimonial-meta">
+            <span class="testimonial-job">Catalogue Pitch — Layout Work · 5.0 ★</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <p class="testimonial-text">"Nar is excellent at delivering timely, quality work. She takes feedback professionally and communicates any needs well. I highly recommend her for any graphic design needs."</p>
+          <div class="testimonial-meta">
+            <span class="testimonial-job">Social Media Graphics · 5.0 ★</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- UPWORK CTA -->
+  <section class="upwork-section section" id="hire">
+    <div class="container">
+      <div class="upwork-inner">
+        <span class="upwork-badge">Top Rated on Upwork · 100% Job Success</span>
+        <h2 class="upwork-heading">Ready to bring your<br><em>brand to life?</em></h2>
+        <p class="upwork-sub">Open to branding, packaging, print design, and AI content projects. Let's make something great together.</p>
+        <a href="https://upwork.com/freelancers/grigoriannar" target="_blank" rel="noopener" class="upwork-btn">
+          Hire me on Upwork
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+        <div class="upwork-stats">
+          <div>
+            <span class="upwork-stat-num">31+</span>
+            <span class="upwork-stat-label">Jobs completed</span>
+          </div>
+          <div>
+            <span class="upwork-stat-num">5.0</span>
+            <span class="upwork-stat-label">Average rating</span>
+          </div>
+          <div>
+            <span class="upwork-stat-num">6+</span>
+            <span class="upwork-stat-label">Years experience</span>
+          </div>
+          <div>
+            <span class="upwork-stat-num">100%</span>
+            <span class="upwork-stat-label">Job success score</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 Nargiz Grigoryan · Artuyt Design Agency</span>
+      <span>Yerevan, Armenia</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
