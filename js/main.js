@@ -619,6 +619,19 @@ function initAI() {
   initPdfCar('aiCarRight');
 }
 
+/* ---- Auto-play videos only when visible ---- */
+function initVideos() {
+  const videos = document.querySelectorAll('.ai-video-item video');
+  if (!videos.length) return;
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) e.target.play();
+      else e.target.pause();
+    });
+  }, { threshold: 0.25 });
+  videos.forEach(v => observer.observe(v));
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   initScrollProgress();
   initCursor();
@@ -629,6 +642,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initBrand();
   initPackaging();
   initAI();
+  initVideos();
   initNav();
   initMobileNav();
   initReveal();
